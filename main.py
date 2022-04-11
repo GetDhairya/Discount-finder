@@ -1,0 +1,5 @@
+bill = float(input("Enter bill amount:"))
+discount = float(input("Enter discount percentage (Do not add sign): "))
+print(f"You will get {discount}% ({bill * discount / 100}) off")
+output = bill - (bill * discount / 100)
+print("After discount your bill is: ", output)
